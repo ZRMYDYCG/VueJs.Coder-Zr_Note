@@ -111,3 +111,9 @@ import VFor from './components/VFor.vue'
 const list = ref([1, 2, 3])
 </script>
 ```
+
+这里，我们通过作用域插槽拿到了 item 内容，然后我们用 srong 标签把它显示出来，这样就达到了我们想要自定义内容的效果。
+
+运行：
+
+![](./images/10-2.jpg)
